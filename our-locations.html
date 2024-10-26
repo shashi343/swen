@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png" />
+    <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png" />
+    <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png" />
+    <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png" />
+    <link
+      rel="apple-touch-icon"
+      sizes="114x114"
+      href="/apple-icon-114x114.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="120x120"
+      href="/apple-icon-120x120.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="144x144"
+      href="/apple-icon-144x144.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="152x152"
+      href="/apple-icon-152x152.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/apple-icon-180x180.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="192x192"
+      href="/android-icon-192x192.png"
+    />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/manifest.json" />
+    <meta name="msapplication-TileColor" content="#ffffff" />
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png" />
+    <meta name="theme-color" content="#ffffff" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Our Location - SWEN Container Line</title>
+    <script type="module" src="/src/js/main.js" defer></script>
+  </head>
+  <body>
+    <!-- Mobile Menu Starts Here -->
+    <header class="mob-header-wrapper d-block d-lg-none">
+      <div class="mob-header">
+        <div class="mob-logo">
+          <a href="/">
+            <img src="/assets/images/logo.png" alt="Logo of Swen"
+          /></a>
+        </div>
+        <!-- <div class="mob-hamburger" id="mob-hamburger">&#9776;</div> -->
+        <div class="mob-hamburger" id="mob-hamburger">
+          <div class="mob-strip mob-hamburger-strip">
+            <div></div>
+            <div></div>
+            <div></div>
+          </div>
+        </div>
+      </div>
+      <nav class="mob-menu" id="mob-menu">
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/about-us.html">About Us</a></li>
+          <li><a href="/#other-services-sectionId">Services</a></li>
+          <li><a href="/resources.html">Resources</a></li>
+          <!-- <li><a href="/gallery.html">Gallery</a></li> -->
+          <li>
+            <a href="/our-locations.html" class="active">Our Locations</a>
+          </li>
+          <li><a href="/contact-us.html">Contact Us</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Mobile Menu Ends Here -->
+    <!-- Desktop Menu Starts Here -->
+    <header class="menu-header">
+      <nav class="container">
+        <ul>
+          <li>
+            <a href="/"
+              ><img
+                src="/assets/images/logo.png"
+                alt="Image of Company Logo"
+                style="width: 205px"
+            /></a>
+          </li>
+        </ul>
+        <ul class="list-ul">
+          <li><a href="/">Home</a></li>
+          <li><a href="/about-us.html">About Us</a></li>
+          <li><a href="/#other-services-sectionId">Services</a></li>
+          <li><a href="/resources.html">Resources</a></li>
+          <!-- <li><a href="/gallery.html">Gallery</a></li> -->
+          <li>
+            <a href="/our-locations.html" class="active">Our Locations</a>
+          </li>
+          <li><a href="/contact-us.html">Contact Us</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!-- Desktop Menu Ends Here -->
+    <main>
+      <header class="page-header">
+        <div class="container">
+          <h6>Our Locations</h6>
+          <h1>Our International <span>Offices and Ports</span></h1>
+        </div>
+        <div class="red-gradient">
+          <img
+            src="/assets/images/heading-radial.png"
+            alt="Image of Heading Radial"
+          />
+        </div>
+      </header>
+      <section class="map-section">
+        <div id="map">
+          <a
+            href="https://www.maptiler.com"
+            style="position: absolute; left: 10px; bottom: 10px; z-index: 999"
+            ><img
+              src="https://api.maptiler.com/resources/logo.svg"
+              alt="MapTiler logo"
+          /></a>
+        </div>
+        <div class="flags-content">
+          <div class="container-fluid custom-fluided">
+            <div class="row">
+              <div class="col-12 col-xl-5 col-xxl-5 our-locations-col">
+                <h2>Our <span>Locations</span></h2>
+                <p class="ourlocations-para">
+                  At SWEN Container Line, we pride ourselves on our extensive
+                  global network that allows us to provide unparalleled
+                  logistics and shipping services to our clients. With a strong
+                  presence across multiple countries and key ports, we are
+                  strategically positioned to handle your shipping needs
+                  efficiently and effectively. Our international reach ensures
+                  that we can offer seamless and reliable services, no matter
+                  where your business operates.
+                </p>
+                <p class="text-decoration-underline">
+                  <strong>Own Offices:</strong>
+                </p>
+                <div class="flags-grid">
+                  <div class="country-box active" id="singaporeBox">
+                    <img
+                      src="./assets/images/our-locations/singapore.svg"
+                      alt="Image of Singapore Flag"
+                    />
+                    <h6>SINGAPORE</h6>
+                  </div>
+                  <!-- Working on above -->
+                  <div class="country-box" id="malayasiaBox">
+                    <img
+                      src="./assets/images/our-locations/malaysia.svg"
+                      alt="Image of malaysia Flag"
+                    />
+                    <h6>Malaysia</h6>
+                  </div>
+                  <div class="country-box" id="chennaiBox">
+                    <img
+                      src="./assets/images/our-locations/india.svg"
+                      alt="Image of India Flag"
+                    />
+                    <h6>CHENNAI</h6>
+                  </div>
+                  <div class="country-box" id="naviMumbaiBox">
+                    <img
+                      src="./assets/images/our-locations/india.svg"
+                      alt="Image of India Flag"
+                    />
+                    <h6>NHAVA SHEVA</h6>
+                  </div>
+                  <div class="country-box" id="colomboBox">
+                    <img
+                      src="./assets/images/our-locations/sri-lanka.svg"
+                      alt="Image of sri-lanka Flag"
+                    />
+                    <h6>COLOMBO</h6>
+                  </div>
+                  <div class="country-box" id="bangladeshBox">
+                    <img
+                      src="./assets/images/our-locations/bangladesh.svg"
+                      alt="Image of bangladesh Flag"
+                    />
+                    <h6>BANGLADESH</h6>
+                  </div>
+                  <div class="country-box" id="dhakaBox">
+                    <img
+                      src="./assets/images/our-locations/bangladesh.svg"
+                      alt="Image of bangladesh Flag"
+                    />
+                    <h6>DHAKA</h6>
+                  </div>
+                </div>
+                <p class="text-decoration-underline">
+                  <strong>Agency Offices:</strong>
+                </p>
+                <div class="flags-grid">
+                  <div class="country-box" id="mundraBox">
+                    <img
+                      src="./assets/images/our-locations/india.svg"
+                      alt="Image of India Flag"
+                    />
+                    <h6>MUNDRA</h6>
+                  </div>
+                  <div class="country-box" id="delhiBox">
+                    <img
+                      src="./assets/images/our-locations/india.svg"
+                      alt="Image of India Flag"
+                    />
+                    <h6>DELHI</h6>
+                  </div>
+                  <div class="country-box" id="bangaloreBox">
+                    <img
+                      src="./assets/images/our-locations/india.svg"
+                      alt="Image of India Flag"
+                    />
+                    <h6>BANGALORE</h6>
+                  </div>
+                  <div class="country-box" id="kolkataBox">
+                    <img
+                      src="./assets/images/our-locations/india.svg"
+                      alt="Image of India Flag"
+                    />
+                    <h6>KOLKATA</h6>
+                  </div>
+                  <div class="country-box" id="tuticorinBox">
+                    <img
+                      src="./assets/images/our-locations/india.svg"
+                      alt="Image of India Flag"
+                    />
+                    <h6>TUTICORIN</h6>
+                  </div>
+                  <div class="country-box" id="visakhapatnamBox">
+                    <img
+                      src="./assets/images/our-locations/india.svg"
+                      alt="Image of India Flag"
+                    />
+                    <h6>VISAKHAPATNAM</h6>
+                  </div>
+                  <div class="country-box" id="hyderabadBox">
+                    <img
+                      src="./assets/images/our-locations/india.svg"
+                      alt="Image of India Flag"
+                    />
+                    <h6>HYDERABAD</h6>
+                  </div>
+                  <div class="country-box" id="bangkokBox">
+                    <img
+                      src="./assets/images/our-locations/thailand.svg"
+                      alt="Image of Thailand Flag"
+                      style="width: 32px"
+                    />
+                    <h6>BANGKOK</h6>
+                  </div>
+                  <div class="country-box" id="indonesiaBox">
+                    <img
+                      src="./assets/images/our-locations/indonesia.svg"
+                      alt="Image of indonesia Flag"
+                    />
+                    <h6>JAKARTA</h6>
+                  </div>
+                  <div class="country-box" id="surabayaBox">
+                    <img
+                      src="./assets/images/our-locations/indonesia.svg"
+                      alt="Image of indonesia Flag"
+                    />
+                    <h6>SURABAYA</h6>
+                  </div>
+                  <div class="country-box" id="uaeBox">
+                    <img
+                      src="./assets/images/our-locations/uae.svg"
+                      alt="Image of uae Flag"
+                      style="width: 35px"
+                    />
+                    <h6>JEBEL ALI</h6>
+                  </div>
+                  <div class="country-box" id="busanBox">
+                    <img
+                      src="./assets/images/our-locations/southKorea.svg"
+                      alt="Image of South Korea Flag"
+                      style="width: 35px"
+                    />
+                    <h6>BUSAN</h6>
+                  </div>
+                  <div class="country-box" id="vietnamBox">
+                    <img
+                      src="./assets/images/our-locations/vietnam.svg"
+                      alt="Image of VIETNAM Flag"
+                    />
+                    <h6>VIETNAM</h6>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-xl-1 col-xxl-2">
+                <!-- Keep This Blank -->
+              </div>
+              <div class="col-12 col-xl-6 col-xxl-5">
+                <div class="top-address-card-wrapper">
+                  <!-- <div class="top-address-card">
+                    <img
+                      src="./assets/images/our-locations/india.svg"
+                      alt="India Flag"
+                      class="address-flag-img"
+                    />
+                    <h3>INDIA</h3>
+                  </div>
+                  <p class="addres-card-para">
+                    At Swen, we believe in providing our clients with
+                    personalized and efficient logistics solutions that meet
+                    their unique needs.
+                  </p>
+                  <div class="top-address-card-details-box">
+                    <div>
+                      <p class="address-card-details">
+                        <img
+                          src="./assets/images/our-locations/phone-icon.svg"
+                          alt="Icon of Phone"
+                        /><span
+                          >Chennai:
+                          <a href="tel:+9144 4211666">+9144 4211666</a></span
+                        >
+                      </p>
+                      <p class="address-card-details">
+                        <img
+                          src="./assets/images/our-locations/mail-icon.svg"
+                          alt="Icon of Mail"
+                        /><span>
+                          <a href="mailto:swenops@swencontainerline.com"
+                            >swenops@swencontainerline.com</a
+                          ></span
+                        >
+                      </p>
+                    </div>
+                    <div>
+                      <div>
+                        <a href="/"
+                          ><div class="outlined-btn-swen">
+                            <span>Contact Us</span>
+                          </div></a
+                        >
+                      </div>
+                    </div>
+                  </div> -->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="white-box-hiding"></div>
+      </section>
+
+      <section class="faq-section">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-lg-6">
+              <img
+                src="/assets/images/index/faq-img-low.svg"
+                data-src="/assets/images/index/faq-img.svg"
+                alt="FAQ image"
+                class="faq-img low-quality lazy-load"
+              />
+            </div>
+            <div class="col-12 col-lg-6">
+              <h6>FAQS</h6>
+              <h2>Got Questions? <span>We’ve Got Answers</span></h2>
+              <!-- Accordion Starts Here -->
+              <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button
+                      class="accordion-button"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseOne"
+                      aria-expanded="true"
+                      aria-controls="collapseOne"
+                    >
+                      What services does SWEN Container Line offer?
+                    </button>
+                  </h2>
+                  <div
+                    id="collapseOne"
+                    class="accordion-collapse collapse show"
+                    data-bs-parent="#accordionExample"
+                  >
+                    <div class="accordion-body">
+                      <p>
+                        We provide comprehensive logistics solutions, including
+                        containerized cargo transportation,
+                        temperature-controlled shipping, and over-dimensional
+                        cargo handling.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseThree"
+                      aria-expanded="false"
+                      aria-controls="collapseThree"
+                    >
+                      What areas do you serve?
+                    </button>
+                  </h2>
+                  <div
+                    id="collapseThree"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#accordionExample"
+                  >
+                    <div class="accordion-body">
+                      <p>
+                        We cover multiple ports across South East Asia, the
+                        Indian Subcontinent, China, and the Upper Gulf.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseFour"
+                      aria-expanded="false"
+                      aria-controls="collapseFour"
+                    >
+                      How can I book a shipment?
+                    </button>
+                  </h2>
+                  <div
+                    id="collapseFour"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#accordionExample"
+                  >
+                    <div class="accordion-body">
+                      <p>
+                        Simply contact our customer support team or use our
+                        online booking system to schedule your shipment.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseFive"
+                      aria-expanded="false"
+                      aria-controls="collapseFive"
+                    >
+                      What makes SWEN Container Line different from other
+                      logistics providers?
+                    </button>
+                  </h2>
+                  <div
+                    id="collapseFive"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#accordionExample"
+                  >
+                    <div class="accordion-body">
+                      <p>
+                        Our personalized approach, extensive network, and
+                        commitment to customer satisfaction set us apart.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseSix"
+                      aria-expanded="false"
+                      aria-controls="collapseSix"
+                    >
+                      Are eco-friendly shipping options available?
+                    </button>
+                  </h2>
+                  <div
+                    id="collapseSix"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#accordionExample"
+                  >
+                    <div class="accordion-body">
+                      <p>
+                        Yes, we prioritize sustainability and offer eco-friendly
+                        practices and initiatives for our logistics solutions.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Accordion Ends Here -->
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="container">
+        <div class="row footer-border">
+          <div class="col-12 col-md-6 col-lg-4">
+            <img
+              src="/assets/images/footer-logo-low.png"
+              data-src="/assets/images/footer-logo.png"
+              alt="Logo of the company - Swen"
+              class="footer-logo low-quality lazy-load"
+            />
+            <p>
+              At SWEN Container Line, we believe in providing our clients with
+              personalized and efficient logistics solutions that meet their
+              unique needs.
+            </p>
+          </div>
+          <div class="col-12 col-md-6 col-lg-2">
+            <h3>Navigation</h3>
+            <ul class="navi-ul">
+              <li><a href="/" class="navi-li">Home</a></li>
+              <li><a href="/about-us.html" class="navi-li">About Us</a></li>
+              <li>
+                <a href="#other-services-sectionId" class="navi-li">Services</a>
+              </li>
+              <li><a href="/resources.html" class="navi-li">Resources</a></li>
+              <li>
+                <a href="/contact-us.html" class="navi-li">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3">
+            <h3>Brochure</h3>
+            <!-- <img
+              src="/assets/images/swen-container-low.png"
+              data-src="/assets/images/swen-container.png"
+              alt="Image of Swen Container"
+              class="swen-vector-img low-quality lazy-load"
+            /> -->
+            <div>
+              <a
+                href="/assets/sample.pdf"
+                target="_blank"
+                class="text-decoration-none"
+                data-bs-toggle="tooltip"
+                data-bs-title="Default tooltip"
+                ><div class="company-doc">
+                  <div class="doc-img-box">
+                    <img
+                      src="http://localhost:5173/assets/images/resources/doc-icon.svg"
+                      data-src="/assets/images/resources/doc-icon.svg"
+                      alt="Image of Documnet Icon"
+                      class="lazy-load"
+                      draggable="false"
+                    />
+                  </div>
+                  <div class="doc-content-box">
+                    <h6>Our Company Details</h6>
+                    <p>Download Doc</p>
+                  </div>
+                </div></a
+              >
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3">
+            <h3>Social Media</h3>
+            <ul class="social-ul">
+              <a
+                href="https://www.facebook.com/swencontainerline"
+                target="_blank"
+                ><li>
+                  <img
+                    src="/assets/images/fb-icon-low.svg"
+                    data-src="/assets/images/fb-icon.svg"
+                    alt="Icon of Facebook"
+                    class="social-img low-quality lazy-load"
+                  /></li
+              ></a>
+            </ul>
+          </div>
+        </div>
+        <div class="copyright-section">
+          <div><p>Copyright &copy; 2024 SWEN Container Line</p></div>
+        </div>
+      </div>
+    </footer>
+    <!-- Scroll to Top button Starts Here -->
+    <button id="scrollToTopButton">
+      <img src="/assets/images/arrow-top.png" alt="arrow-top" />
+    </button>
+    <!-- Scroll to Top button Ends Here -->
+
+    <script type="module" src="/src/js/ourLocations.js"></script>
+  </body>
+</html>
